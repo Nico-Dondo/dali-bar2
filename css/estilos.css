@@ -61,14 +61,10 @@ body {
 }
 
 
-.imagen {
-         text-align: center; justify-content: center;
-}
-
-.menu { 
-        text-align: center;
-        justify-content: center; margin-top: auto;
-        margin-left: 5%; 
+.menu  { justify-content: center; 
+        text-align:content;
+        justify-items: auto; 
+        margin-left:auto; 
         margin-top: 3%;
 }
 .menu :hover {-webkit-transform:scale(1.2);

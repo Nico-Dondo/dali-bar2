@@ -1,0 +1,28 @@
+header {  
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    margin-bottom: 5%; 
+   }
+     nav { display: block;
+          justify-content: space-between;
+          margin: 0 auto;
+          max-width: 100%;
+          width: 80%;
+          text-align: center;
+          min-width: 50%;}
+     body div header h1 {
+                       text-align:center; 
+                       display: inline-block;
+                       font-size: x-large;
+                       margin-top:40px ;
+                       margin-left:100px;
+                       padding-inline-start: 30%;
+                       position:relative;}
+                        
+     header nav div ul li {
+                       display: inline-block;
+                       margin: 3px;}
+                         
+     header nav div ul li a {
+                             text-decoration: none;
+                             color: black; }
