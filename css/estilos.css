@@ -165,8 +165,8 @@ body {
 
 .img__5 {size: 50%;
    
-border-color: black;
-border-top: 20%;
+         border-color: black;
+         border-top: 20%;
 
 }
 
@@ -210,14 +210,19 @@ border-top: 20%;
 
  .texto__4 {
             text-align: center;
-          font-size: large;}
+            font-size: large;}
  
 footer{
-           background-color: rgb(109, 160, 42); margin-bottom:auto;
-           margin-top:auto ;}
+           background-color:beige; margin-bottom:auto;
+           margin-top:auto ;
+        }
+        
 
 .contacto {
           display: inline-block; position:relative;
+          margin-left: 38%;
+          color: black;
     }
+
 
    
