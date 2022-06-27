@@ -1,13 +1,15 @@
 /* Color Bordes*/
-$color-primario: rgb(238, 52, 52),
-
+$color-primario:border-color( #152);
+$color-secundario:border-color( #322);
+$color-terciario:border-color ( #455);
 
 /*Tipografia*/
+$fuente-secundaria:Times New Roman;
+$segunda-fuente:Arial Black;
 
-
-$fuente-secundaria:Times New Roman,
-$segunda-fuente: Lucida Sans,Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
-
+/*Tamaño letras*/
+$tamaño-h1:font-size (Xxl);
+$tamaño-h2:font-size (large);
 
 
 
