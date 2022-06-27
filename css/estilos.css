@@ -54,8 +54,16 @@ body {
              max-width: 100%;
              max-height: max-content;
              opacity: 85%;
-  }
+        }
 
+.container-fluid{ 
+                 background-image: url(../fondo/azulejo.jpg);
+                 max-width: 100%;
+                 max-height: max-content;
+                 opacity: 85%;
+                 margin-top: -10%;
+                 margin-bottom: -10%;
+                padding-left: 35%;}
 .containers h2 {
                 grid-auto-rows: auto; margin-left: 2%;
 }
