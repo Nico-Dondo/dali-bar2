@@ -1,7 +1,8 @@
 /* Color Bordes*/
 $color-primario:border-color( #152);
-$color-secundario:border-color( #322);
-$color-terciario:border-color ( #455);
+$color-secundario:border-color( rgb(228, 48, 48));
+$color-terciario:border-color ( rgb(138, 241, 241));
+$tamaño-borde: 5px solid black;
 
 /*Tipografia*/
 $fuente-secundaria:Times New Roman;
@@ -11,6 +12,9 @@ $segunda-fuente:Arial Black;
 $tamaño-h1:font-size (Xxl);
 $tamaño-h2:font-size (large);
 
+/*Imagenes Fondo*/
+$fondo1:background-image("./fondo/azulejo2.jpg");
+$fondo2:backgroung-image("./fondo/azulejo3.jpg");
 
 
 

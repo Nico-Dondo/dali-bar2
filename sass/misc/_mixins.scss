@@ -1,1 +1,14 @@
                 
+@mixin borde($fondo) {
+    border-color: ($fondo);
+    
+  }
+
+
+.img__2 {@include borde(#470)}
+
+.img__3 {@include borde(#666)}
+
+.img__4 {@include borde(#722)}
+
+.img__5 {@include borde(#850)}
