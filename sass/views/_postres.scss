@@ -1,6 +1,6 @@
 .texto__3{ 
     text-align: center;
-    @map-get
+    
 }
 .img__3 {
     display: block;
@@ -11,9 +11,9 @@
     margin-left: auto;  width: 50%;
     height: 50%;
     margin-top: 3%;
-    margin-bottom: 3%;}
-.img__3 :hover{
-        -webkit-transform:scale(1.2);
-        transform:scale(1.2);}
+    margin-bottom: 3%;
+    @extend.img__4
+}
+.img__3:hover {filter: sepia(60%);}
     
 
