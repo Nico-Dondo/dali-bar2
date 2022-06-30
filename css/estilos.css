@@ -1,3 +1,4 @@
+/*/
  *{
   margin: 0;
   padding: 0;
@@ -69,14 +70,6 @@ body {
 }
 
 
-.menu  { justify-content: center; 
-        text-align:content;
-        justify-items: auto; 
-        margin-left:auto; 
-        margin-top: 3%;
-}
-.menu :hover {-webkit-transform:scale(1.2);
-        transform:scale(1.2);}
 
 .imagen {
          text-align: center; 

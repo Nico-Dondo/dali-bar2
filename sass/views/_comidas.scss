@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -56,31 +57,40 @@
                opacity: 85%;
           }
   
-    .container-fluid{ 
+  .container-fluid{ 
                    background-image: url(../fondo/azulejo.jpg);
                    max-width: 100%;
                    max-height: max-content;
                    opacity: 85%;
                    margin-top: -10%;
                    margin-bottom: -10%;
-                   padding-left: 35%;}
-.texto__1{ 
-                    text-align: center;
-            }
-            
+                  padding-left: 35%;}
+  .containers h2 {
+                  grid-auto-rows: auto; margin-left: 2%;
+  }.texto__1{ 
+    text-align: center;
+}
 .img__4 {
-                display: block;
-                margin: 0 auto;
-                max-width:1200px;  
-                border: 5px solid black; 
-                margin-left: auto;
-                width:40%;
-                height: 40%;
-                margin-top: 3%;
-                margin-bottom: 3%;
-                margin-top: 5%;}
-                .img :hover {
-                      -webkit-transform:scale(1.2);
-                      transform:scale(1.2);
-               }
-.img__4 {@include borde(#722)}
+    display: block;
+    margin: 0 auto;
+    max-width:1200px;  
+    border: 5px solid black; 
+    margin-left: auto; }
+
+.img__4 {
+     width:40%;
+     height: 40%;
+     margin-top: 3%;
+     margin-bottom: 3%;
+    }       
+
+.img__4 {
+     margin-top: 5%;
+}
+    
+.img__4:hover {
+      -webkit-transform:scale(1.2);
+      transform:scale(1.2);
+}
+
+.img__4 {@include borde(#666)}
