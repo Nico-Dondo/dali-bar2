@@ -47,7 +47,7 @@
             }
             a:hover:after {
             left: 0;
-            }      
+            } ♠      
     
     header nav div ul li{
                display: inline-block;
@@ -88,6 +88,7 @@
                     grid-auto-rows: auto; margin-left: 2%;
     }
 .texto__4 {text-align: center;font-size: large;
+      
       }
 .img__4 {
             display: block;
@@ -103,3 +104,4 @@
            
            
 .img__4 {@include borde(#470)}
+
